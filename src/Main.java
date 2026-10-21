@@ -113,7 +113,7 @@ public class Main {
 
         while (true) {
             System.out.println("Escribe una palabra, para comprobar si es palíndroma o no.");
-            input = sc.nextLine().toLowerCase();
+            input = sc.nextLine().toLowerCase().trim();
             if (input.isEmpty()){
                 System.out.println("No has introducido ninguna palabra, inténtalo otra vez.");
             }else {

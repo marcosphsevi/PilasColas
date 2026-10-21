@@ -12,7 +12,7 @@ public class Pila <T> {
 
     public T pop() {
         if (isEmpty()) {
-            throw new IllegalStateException("La pila está vacía");
+            return null;
         }
         T dato = cima.getDato();
         cima = cima.getSiguiente();

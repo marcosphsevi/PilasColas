@@ -10,7 +10,6 @@ No utiliza `Stack`, `Queue` ni `Deque` de la librería estándar: las dos estruc
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Estructuras de datos](#estructuras-de-datos)
 - [Requisitos](#requisitos)
-- [Compilación y ejecución](#compilación-y-ejecución)
 - [Ejemplo de uso](#ejemplo-de-uso)
 
 ## Ejercicios

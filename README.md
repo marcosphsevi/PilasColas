@@ -33,13 +33,12 @@ Las entradas se validan: no se admiten líneas vacías y, donde se espera un nú
 ```
 PilasColas/
 ├── src/
-│   ├── Main.java      # Programa principal con los 4 ejercicios
-│   ├── Pila.java      # Pila genérica (LIFO)
-│   ├── Cola.java      # Cola genérica (FIFO)
-│   ├── Nodo.java      # Nodo enlazado genérico
-│   └── Depurar.java   # Utilidad de validación de enteros
-├── pilasColas.iml     # Configuración de módulo de IntelliJ IDEA
-└── README.md
+    ├── Main.java      # Programa principal con los 4 ejercicios
+    ├── Pila.java      # Pila genérica (LIFO)
+    ├── Cola.java      # Cola genérica (FIFO)
+    ├── Nodo.java      # Nodo enlazado genérico
+    └── Depurar.java   # Utilidad de validación de enteros
+
 ```
 
 ## Estructuras de datos

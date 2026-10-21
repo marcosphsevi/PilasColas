@@ -55,9 +55,9 @@ public class Main {
             }
             switch (Integer.parseInt(input)) {
                 case 1:
-                    System.out.println("Introduce el Nombre de la persona que acaba de llegar a la cola: ");
-                    input = sc.nextLine();
                     while (true) {
+                        System.out.println("Introduce el Nombre de la persona que acaba de llegar a la cola: ");
+                        input = sc.nextLine();
                         if (input.isEmpty()) {
                             System.out.println("No puedes dejar el campo vacío.");
                         } else {
@@ -152,7 +152,11 @@ public class Main {
             if (!Depurar.depuracionEnteros(input)){
                 System.out.println("Tienes que introducir un número entero, inténtalo otra vez.");
             }else {
-                break;
+                if (Integer.parseInt(input) < 0){
+                    System.out.println("Tienes que introducir un número positivo o igual a 0");
+                }else{
+                    break;
+                }
             }
         }
 

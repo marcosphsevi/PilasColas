@@ -51,7 +51,7 @@ Ambas estructuras son genéricas (`<T>`) y se apoyan en `Nodo<T>`, un nodo de li
 | Método | Descripción |
 | --- | --- |
 | `void push(T dato)` | Apila un elemento en la cima. |
-| `T pop()` | Desapila y devuelve el elemento de la cima. Lanza `IllegalStateException` si la pila está vacía. |
+| `T pop()` | Desapila y devuelve el elemento de la cima. Devuelve `null` si la cola está vacía. |
 | `boolean isEmpty()` | Indica si la pila está vacía. |
 | `int size()` | Devuelve el número de elementos. |
 

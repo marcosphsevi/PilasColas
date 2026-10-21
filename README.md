@@ -1,6 +1,6 @@
 # PilasColas
 
-Implementación propia en Java de las estructuras de datos **Pila** (LIFO) y **Cola** (FIFO), construidas desde cero con nodos enlazados y genéricos, y una serie de ejercicios interactivos por consola que las ponen en práctica.
+Implementación propia en Java de las estructuras de datos **Pila** (LIFO) y **Cola** (FIFO), construidas desde cero con nodos enlazados y genéricos.
 
 No utiliza `Stack`, `Queue` ni `Deque` de la librería estándar: las dos estructuras están programadas a mano.
 

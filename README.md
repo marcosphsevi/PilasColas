@@ -63,8 +63,6 @@ Ambas estructuras son genéricas (`<T>`) y se apoyan en `Nodo<T>`, un nodo de li
 | `boolean isEmpty()` | Indica si la cola está vacía. |
 | `int size()` | Devuelve el número de elementos. |
 
-Todas las operaciones de inserción y extracción se ejecutan en tiempo constante, O(1).
-
 ### `Depurar`
 
 | Método | Descripción |

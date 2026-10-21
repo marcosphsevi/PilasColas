@@ -72,30 +72,6 @@ Todas las operaciones de inserción y extracción se ejecutan en tiempo constant
 | --- | --- |
 | `static boolean depuracionEnteros(String numero)` | Devuelve `true` si la cadena se puede convertir a `int`. |
 
-## Requisitos
-
-- **JDK 21** (la versión con la que está configurado el proyecto en IntelliJ IDEA). Debería funcionar con versiones anteriores que soporten genéricos y `Scanner`, pero JDK 21 es la versión de referencia.
-
-## Compilación y ejecución
-
-### Desde IntelliJ IDEA
-
-1. Abre la carpeta del proyecto (`File > Open`).
-2. Comprueba que el SDK del proyecto es JDK 21.
-3. Ejecuta la clase `Main`.
-
-### Desde la terminal
-
-Desde la raíz del proyecto:
-
-```bash
-# Compilar
-javac -d out src/*.java
-
-# Ejecutar
-java -cp out Main
-```
-
 ## Ejemplo de uso
 
 ```
